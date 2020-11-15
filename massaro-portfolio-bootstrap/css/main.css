@@ -1,0 +1,115 @@
+.title-text {
+  font: normal normal 50px/82px 'neue-haas-grotesk-display';
+}
+
+html {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.header-area .main-menu .navbar {
+  padding-top: 1rem;
+}
+
+.header-area .main-menu .navbar .navbar-brand h1 {
+  display: none;
+  font-family: 'neue-haas-grotesk-display';
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #833ab4;
+  background-image: linear-gradient(120deg, #833ab4 0%, #fd1d1d 50%, #fcb045 90%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.header-area .main-menu .navbar .navbar-nav .nav-link {
+  font-family: 'myriad-pro', helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding: 1.7rem 0rem 1.7rem 2.8rem;
+  color: black;
+  -webkit-transition: 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transition: 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.header-area .main-menu .navbar .navbar-nav .nav-link.active {
+  font-weight: 700;
+}
+
+.header-area .main-menu .navbar .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.site-main .site-banner {
+  text-align: right;
+}
+
+.site-main .site-banner .site-title {
+  font-family: 'neue-haas-grotesk-display';
+}
+
+.site-main .site-banner .site-title h3 {
+  line-height: 60px;
+  padding-top: 20%;
+  font-weight: 300;
+  font-size: 2.6rem;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  background-color: #833ab4;
+  background-image: linear-gradient(120deg, #833ab4 35%, #fd1d1d 70%, #fcb045 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.site-main .site-banner .site-title h4 {
+  line-height: 60px;
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image img {
+  -webkit-filter: grayscale(100%);
+  position: absolute;
+  width: 40vw;
+  left: 0;
+  margin-top: -4em;
+}
+
+.project-area .project-title {
+  margin-top: 8vw;
+}
+
+.project-area .project-title h1 {
+  padding-top: 20%;
+  font-weight: 900;
+  font-size: 2.6rem;
+  font-family: 'neue-haas-grotesk-display';
+}
+
+.project-area img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .banner-image {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-image {
+    position: absolute;
+    width: 55%;
+    margin-top: 4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

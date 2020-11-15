@@ -1,0 +1,136 @@
+// Global Styles
+.title-text {
+    font: normal normal 50px/82px 'neue-haas-grotesk-display';
+}
+// End Global Styles
+
+// Navbar Styling
+html {
+    width: 80vw;
+    margin: 0 auto;
+}
+.header-area {
+    .main-menu {
+        .navbar {
+            .navbar-brand {
+                h1 {
+                    display: none;
+                    font-family: 'neue-haas-grotesk-display';
+                    font-size: 3rem;
+                    font-weight: 900;
+                    background-color: rgb(131, 58, 180);
+                    background-image: linear-gradient(
+                        120deg,
+                        rgba(131, 58, 180, 1) 0%,
+                        rgba(253, 29, 29, 1) 50%,
+                        rgba(252, 176, 69, 1) 90%
+                    );
+                    background-size: 100%;
+                    -webkit-background-clip: text;
+                    -moz-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    -moz-text-fill-color: transparent;
+                }
+            }
+            padding-top: 1rem;
+            .navbar-nav {
+                .nav-link {
+                    font-family: 'myriad-pro', helvetica, sans-serif;
+                    font-size: 1.1rem;
+                    font-weight: 300;
+                    padding: 1.7rem 0rem 1.7rem 2.8rem;
+                    color: black;
+                    transition: 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+                    &.active {
+                        font-weight: 700;
+                    }
+                    &:hover {
+                        color: rgba(0, 0, 0, 0.575);
+                    }
+                }
+            }
+        }
+    }
+}
+// End Navbar Styling
+
+// Banner Styling
+.site-main {
+    .site-banner {
+        text-align: right;
+        .site-title {
+            font-family: 'neue-haas-grotesk-display';
+            h3 {
+                line-height: 60px;
+                padding-top: 20%;
+                font-weight: 300;
+                font-size: 2.6rem;
+            }
+            h1 {
+                font-size: 5rem;
+                font-weight: 900;
+                background-color: rgb(131, 58, 180);
+                background-image: linear-gradient(
+                    120deg,
+                    rgba(131, 58, 180, 1) 35%,
+                    rgba(253, 29, 29, 1) 70%,
+                    rgba(252, 176, 69, 1) 100%
+                );
+                background-size: 100%;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+            }
+            h4 {
+                line-height: 60px;
+                font-size: 1.5rem;
+            }
+        }
+        .banner-image {
+            img {
+                -webkit-filter: grayscale(100%);
+                position: absolute;
+                width: 40vw;
+                left: 0;
+                margin-top: -4em;
+            }
+        }
+    }
+}
+// End Banner Styling
+
+// Project Gallery
+
+.project-area {
+    .project-title {
+        margin-top: 8vw;
+        h1 {
+            padding-top: 20%;
+            font-weight: 900;
+            font-size: 2.6rem;
+            font-family: 'neue-haas-grotesk-display';
+        }
+    }
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+//End Project Gallery
+
+// Media Queries
+
+@media (max-width: 576px) {
+    .banner-image {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner-image {
+        position: absolute;
+        width: 55%;
+        margin-top: 4rem;
+    }
+}
